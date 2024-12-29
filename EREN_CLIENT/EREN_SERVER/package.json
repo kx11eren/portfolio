@@ -1,0 +1,26 @@
+{
+  "name": "eren_server",
+  "version": "1.0.0",
+  "description": "Kx11Eren portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "dev"
+  },
+  "keywords": [
+    "Kx11"
+  ],
+  "author": "Kx11Eren",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.6",
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.4",
+    "express": "^4.21.2",
+    "nodemailer": "^6.9.16",
+    "sequelize": "^6.37.5",
+    "sqlite3": "^5.1.7",
+    "winston": "^3.17.0"
+  }
+}
