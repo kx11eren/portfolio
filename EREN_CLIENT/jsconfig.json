@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",  
+      "paths": {
+        "@components/*": ["src/components/*"], 
+        "@RouteProvider/*": ["src/RouteProvider/*"],
+        "@assets/*": ["src/assets/*"]
+      },
+      // "jsx": "react",  // Enable JSX in JS files
+      // "strict": true,  // Enable strict mode for better error checking
+      // "moduleResolution": "node",  // Use Node-style module resolution
+      // "target": "esnext",  // Target the latest ECMAScript version
+      // "allowJs": true,  // Allow JavaScript files to be included
+      // "esModuleInterop": true,  // Enable synthetic default imports
+      // "types": ["react", "react-dom"] ,
+      // "skipLibCheck": true , // Skip type-checking for declaration files
+      // "resolveJsonModule": true, //allow import .json files directly 
+      // "allowImportingTsExtensions": true,
+    
+    //   "allowSyntheticDefaultImports": true,
+    //   "checkJs": true,  // Enable type checking in JavaScript files
+    //   "noImplicitAny": true,  // Error when variables are implicitly 'any'
+    //   "strictNullChecks": true , // Prevent assignment of 'null' or 'undefined' to non-nullable types
+    //   "useDefineForClassFields": true,  // Use ECMAScript standard for class fields
+    //   "experimentalDecorators": true , // Enable support for decorators
+    //   "declaration": true,  // Generate .d.ts files
+    //   "noEmit": true,  // Do not emit any output files
+    //   "resolveModuleSuffixes": [".js", ".jsx", ".ts", ".tsx"],
+    },
+    "include": [
+      "src/**/*"  
+    ],
+    "exclude": [
+    "node_modules",
+    "build"
+  ]
+  }
+  
